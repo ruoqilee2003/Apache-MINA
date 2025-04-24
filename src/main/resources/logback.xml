@@ -1,0 +1,7 @@
+<configuration>
+    <logger name="org.apache.mina.filter.logging.LoggingFilter" level="OFF"/>
+    <root level="INFO">
+        <appender-ref ref="STDOUT"/>
+    </root>
+</configuration>
+
