@@ -1,4 +1,4 @@
-# Apache MINA 
+ㄏ# Apache MINA 
 
 A simple console-based TCP echo chatroom built using [Apache MINA](https://mina.apache.org/), demonstrating non-blocking I/O communication in Java.
 
@@ -32,7 +32,39 @@ mina-echo/
 - Java 17
 - Maven 3.6+
 
-### Setup
+### Environment Setup
+
+#### Install JDK 17 and Set Environment Variables
+
+1. Install JDK 17.
+2. Set system environment variables:
+   - **System variables → New:**
+     - Variable name: `JAVA_HOME`
+     - Variable value: (your JDK installation path)
+   - **System variables → Path → New:**
+     - Add: `%JAVA_HOME%\bin`
+3. Open PowerShell and verify with:
+   ```bash
+   echo $env:JAVA_HOME
+   ```
+   It should display your JDK installation path.
+
+#### Install Maven and Set Environment Variables
+
+1. Install Maven.
+2. Set system environment variables:
+   - **System variables → New:**
+     - Variable name: `MAVEN_HOME`
+     - Variable value: (your Maven installation path)
+   - **System variables → Path → New:**
+     - Add: `%MAVEN_HOME%\bin`
+3. Open PowerShell or CMD and verify with:
+   ```bash
+   mvn -v
+   ```
+   It should display Maven version information.
+
+### Setup Project
 
 1. Clone or download this project
 2. Open in IntelliJ IDEA (or your preferred IDE)
