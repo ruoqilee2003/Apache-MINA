@@ -1,4 +1,4 @@
-ㄏ# Apache MINA 
+# Apache MINA 
 
 A simple console-based TCP echo chatroom built using [Apache MINA](https://mina.apache.org/), demonstrating non-blocking I/O communication in Java.
 
